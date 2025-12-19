@@ -1,0 +1,175 @@
+[
+  {
+    "order_id": 1,
+    "customer_id": 5,
+    "products": [
+      {
+        "product_id": 101,
+        "name": "Surgical Mask",
+        "quantity": 2,
+        "price": 50
+      },
+      {
+        "product_id": 105,
+        "name": "Gloves",
+        "quantity": 1,
+        "price": 30
+      }
+    ],
+    "total_price": 130,
+    "order_date": "2025-12-13",
+    "status": "Pending"
+  },
+  {
+    "order_id": 2,
+    "customer_id": 8,
+    "products": [
+      {
+        "product_id": 110,
+        "name": "Syringe",
+        "quantity": 3,
+        "price": 40
+      },
+      {
+        "product_id": 112,
+        "name": "Thermometer",
+        "quantity": 1,
+        "price": 250
+      }
+    ],
+    "total_price": 370,
+    "order_date": "2025-12-14",
+    "status": "Confirmed"
+  },
+  {
+    "order_id": 3,
+    "customer_id": 12,
+    "products": [
+      {
+        "product_id": 120,
+        "name": "Surgical Scissors",
+        "quantity": 1,
+        "price": 1500
+      }
+    ],
+    "total_price": 1500,
+    "order_date": "2025-12-15",
+    "status": "Pending"
+  },
+  {
+    "order_id": 4,
+    "customer_id": 15,
+    "products": [
+      {
+        "product_id": 125,
+        "name": "Face Shield",
+        "quantity": 2,
+        "price": 200
+      },
+      {
+        "product_id": 128,
+        "name": "Disposable Gown",
+        "quantity": 3,
+        "price": 300
+      }
+    ],
+    "total_price": 1300,
+    "order_date": "2025-12-16",
+    "status": "Shipped"
+  },
+  {
+    "order_id": 5,
+    "customer_id": 18,
+    "products": [
+      {
+        "product_id": 130,
+        "name": "IV Cannula",
+        "quantity": 5,
+        "price": 80
+      },
+      {
+        "product_id": 132,
+        "name": "Surgical Tape",
+        "quantity": 4,
+        "price": 60
+      }
+    ],
+    "total_price": 640,
+    "order_date": "2025-12-17",
+    "status": "Confirmed"
+  },
+  {
+    "order_id": 6,
+    "customer_id": 20,
+    "products": [
+      {
+        "product_id": 135,
+        "name": "Oxygen Mask",
+        "quantity": 2,
+        "price": 350
+      }
+    ],
+    "total_price": 700,
+    "order_date": "2025-12-18",
+    "status": "Pending"
+  },
+  {
+    "order_id": 7,
+    "customer_id": 22,
+    "products": [
+      {
+        "product_id": 140,
+        "name": "Blood Pressure Monitor",
+        "quantity": 1,
+        "price": 4500
+      },
+      {
+        "product_id": 142,
+        "name": "Stethoscope",
+        "quantity": 1,
+        "price": 3200
+      }
+    ],
+    "total_price": 7700,
+    "order_date": "2025-12-19",
+    "status": "Confirmed"
+  },
+  {
+    "order_id": 8,
+    "customer_id": 25,
+    "products": [
+      {
+        "product_id": 145,
+        "name": "Hand Sanitizer",
+        "quantity": 6,
+        "price": 150
+      },
+      {
+        "product_id": 148,
+        "name": "Cotton Rolls",
+        "quantity": 10,
+        "price": 25
+      }
+    ],
+    "total_price": 1150,
+    "order_date": "2025-12-20",
+    "status": "Shipped"
+  },
+  {
+    "order_id": 2,
+    "customer_id": 201,
+    "products": [
+      {
+        "name": "Notebook",
+        "quantity": 3,
+        "price": 200
+      },
+      {
+        "name": "Pen",
+        "quantity": 5,
+        "price": 50
+      }
+    ],
+    "total_price": 850
+  }
+]
