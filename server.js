@@ -18,6 +18,11 @@ const writeOrders = (orders) => {
     fs.writeFileSync(dataFile, JSON.stringify(orders, null, 2));
 };
 
+app.get('/',(req,res) => {
+    const orders = readOrders();
+    res.json(orders);
+});
+
 app.get('/orders', (req, res) => {
     const orders = readOrders();
     res.json(orders);
@@ -55,3 +60,4 @@ const PORT = 8080;
 app.listen(PORT, () => {
     console.log(`Server running on port ${PORT}`);
 });
+
