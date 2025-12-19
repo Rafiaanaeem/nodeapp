@@ -1,7 +1,7 @@
 const express = require('express');
 const PORT = process.env.MONGOB_URI || 8080;
 
-require('dotenv').config();
+const dotenv = require('dotenv').config();
 const fs = require('fs');
 const path = require('path');
 const mongoose = require('mongoose')
@@ -68,3 +68,4 @@ app.post('/order', (req, res) => {
 // app.listen(PORT, () => {
 //     console.log(`Server running on port ${PORT}`);
 // });
+
